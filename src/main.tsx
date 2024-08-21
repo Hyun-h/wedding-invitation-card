@@ -8,7 +8,7 @@ import "@fontsource/nanum-pen-script";
 // MUI
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
-import theme from "./style/theme.ts";
+import theme from "@/style/theme.ts";
 
 import App from "./App.tsx";
 

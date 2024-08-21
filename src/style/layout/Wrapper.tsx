@@ -1,5 +1,5 @@
 import { Stack, useTheme, useMediaQuery } from "@mui/material";
-import { ReactChildren } from "../../types/style";
+import { ReactChildren } from "@/types/atom";
 
 function Wrapper({ children }: ReactChildren) {
   const theme = useTheme();
