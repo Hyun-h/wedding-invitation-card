@@ -1,12 +1,16 @@
-import { Button, Typography } from "@mui/material";
+import { Box } from "@mui/material";
+import Container from "./style/layout/Container";
+import Wrapper from "./style/layout/Wrapper";
 
 function App() {
   return (
-    <>
-      <Button>
-        <Typography>테스트</Typography>
-      </Button>
-    </>
+    <Container>
+      <Wrapper>
+        <Box height={1000}></Box>
+        <Box height={1000}></Box>
+        <Box height={1000}></Box>
+      </Wrapper>
+    </Container>
   );
 }
 
