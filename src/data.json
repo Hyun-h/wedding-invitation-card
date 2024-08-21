@@ -1,0 +1,104 @@
+{
+  "greeting": {
+    "title": "임정운 \uD83D\uDC8D 홍현아\n결혼합니다!",
+    "quotation": {
+      "message": "아름다운 청춘의 한 장 함께 써내려 가자\n지금 이 순간이 다시 넘겨볼 수 있는\n한 페이지가 될 수 있게",
+      "title": "- 데이식스, <한 페이지가 될 수 있게> 中 -"
+    },
+    "message": "저희, 앞으로의 인생을 함께 써 내려가려고 합니다.\n\n첫 페이지의 첫 문장을 새기는 그 설렘의 순간에\n소중하고 귀한 여러분들을 초대합니다.",
+    "host": {
+      "groom": {
+        "name": "정운",
+        "relation": "아들",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "임성웅"
+          },
+          {
+            "relation": "어머니",
+            "name": "한길자"
+          }
+        ]
+      },
+      "bride": {
+        "name": "현아",
+        "relation": "딸",
+        "parents": [
+          {
+            "relation": "아버지",
+            "name": "홍현아"
+          },
+          {
+            "relation": "어머니",
+            "name": "신민자"
+          }
+        ]
+      }
+    },
+    "eventDetail": "2024년 10월 12일 (토) 오후 1시\n동천성바오로성당"
+  },
+  "hostInfo": [
+    {
+      "host": "신랑측",
+      "accountInfo": [
+        {
+          "name": "임정운",
+          "relation": "신랑",
+          "bank": "토스뱅크",
+          "account": "1000-5274-2906"
+        },
+        {
+          "name": "한길자",
+          "relation": "어머니",
+          "bank": "국민은행",
+          "account": "296-21-0259-634"
+        }
+      ]
+    },
+    {
+      "host": "신부측",
+      "accountInfo": [
+        {
+          "name": "홍현아",
+          "relation": "신부",
+          "bank": "우리은행",
+          "account": "1002-254-998906"
+        },
+        {
+          "name": "홍기문",
+          "relation": "아버지",
+          "bank": "우리은행",
+          "account": "208-085944-02-101"
+        }
+      ]
+    }
+  ],
+  "mapInfo": {
+    "address1": "동천성바오로성당",
+    "address2": "(도로명) 경기도 용인시 수지구 고기로45번길 38\n(지 번) 경기도 용인시 수지구 동천동 349번지",
+    "naverMap": "https://map.naver.com/p/entry/place/12866749?placePath=%2Fhome&c=15.00,0,0,0,dh",
+    "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&itemId=10284140&q=%EB%8F%99%EC%B2%9C%EB%8F%99%EC%84%B1%EB%8B%B9&urlLevel=3&urlX=520821&urlY=1066916",
+    "lat": 37.34044484750556,
+    "lon": 127.09431767463684
+  },
+  "locationInfo": [
+    {
+      "title": "\uD83D\uDCCD 주차안내",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 성당 내 하객 주차 가능"
+    },
+    {
+      "title": "\uD83D\uDCCD 지하철",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 신분당선 동천역 3번 출구 도보 15분 거리"
+    },
+    {
+      "title": "\uD83D\uDCCD 버스",
+      "desc": "\uD83D\uDC49\uD83C\uDFFB 정류장 위치: 미금역 7번 출구 스타벅스 미금역점 앞, 미금역.2001아울렛\n마을버스 14번 승차 후 포레나수지동천 하차\n마을버스 17번 승차 후 동천성바오로성당 하차"
+    }
+  ],
+  "locationNotice": {
+    "notice1": "노약자를 위해 유아실을 개방하고 있습니다.",
+    "notice2": "장소 특성상 화환은 정중히 사양합니다.",
+    "notice3": "주차 가능하오나, 주변 도로 상황으로 교통혼잡이 예상됩니다.\n대중교통 이용을 권장해드립니다."
+  }
+}
