@@ -1,6 +1,6 @@
 import { Box } from "@mui/material";
-import Container from "./style/layout/Container";
-import Wrapper from "./style/layout/Wrapper";
+import Container from "@/layout/Container";
+import Wrapper from "@/layout/Wrapper";
 
 function App() {
   return (

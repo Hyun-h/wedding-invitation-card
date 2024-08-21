@@ -16,7 +16,8 @@
     "@fontsource/nanum-pen-script": "^5.0.13",
     "@mui/material": "^5.16.7",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-tsconfig-paths": "^5.0.1"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

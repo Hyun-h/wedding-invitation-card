@@ -1,5 +1,5 @@
 import { Stack } from "@mui/material";
-import { ReactChildren } from "../../types/style";
+import { ReactChildren } from "@/types/atom";
 
 function Container({ children }: ReactChildren) {
   return (
