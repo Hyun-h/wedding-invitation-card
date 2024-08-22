@@ -7,8 +7,8 @@ const Main = () => {
   const { title, eventDetail } = greeting;
 
   return (
-    <ItemSection>
-      <Image maxWidth={450} image={poster} />
+    <ItemSection isCenter isFullScreen>
+      <Image isSemicircle maxWidth={450} image={poster} />
       <Typography variant="h1" my={4}>
         {title}
       </Typography>

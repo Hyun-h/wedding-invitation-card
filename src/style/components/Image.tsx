@@ -1,6 +1,7 @@
 import { Box } from "@mui/material";
 
 type Props = {
+  isSemicircle?: boolean;
   maxWidth: number | string;
   image: {
     alt: string;
@@ -8,12 +9,12 @@ type Props = {
   };
 };
 
-const Image = ({ maxWidth, image }: Props) => {
+const Image = ({ isSemicircle = false, maxWidth, image }: Props) => {
   const { alt, source } = image;
 
   return (
     <Box
-      borderRadius="250px 250px 0 0"
+      borderRadius={isSemicircle ? "250px 250px 0 0" : "4px"}
       maxWidth={maxWidth}
       overflow="hidden"
       sx={{
