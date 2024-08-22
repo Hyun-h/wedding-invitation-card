@@ -9,7 +9,7 @@ const Main = () => {
   return (
     <ItemSection isCenter isFullScreen>
       <Image isSemicircle maxWidth={450} image={poster} />
-      <Typography variant="h1" my={4}>
+      <Typography variant="h1" my={2}>
         {title}
       </Typography>
       <Typography variant="h3">{eventDetail}</Typography>

@@ -6,7 +6,7 @@ const Invitation = () => {
   const { message, quotation, host } = greeting;
 
   return (
-    <ItemSection gap={2}>
+    <ItemSection>
       <Typography variant="h2">모시는 글</Typography>
       <Box>
         <Typography>{quotation.message}</Typography>

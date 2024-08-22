@@ -11,7 +11,7 @@ function Wrapper({ children }: ReactChildren) {
       direction="column"
       justifyContent="center"
       alignItems="center"
-      gap={2}
+      gap={4}
       padding={4}
       minWidth={isSmallScreen ? "100vw" : 600}
       overflow="hidden"
