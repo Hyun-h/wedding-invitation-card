@@ -13,6 +13,7 @@
     "@emotion/react": "^11.13.0",
     "@emotion/styled": "^11.13.0",
     "@fontsource-variable/noto-sans-kr": "^5.0.6",
+    "@fontsource/grandiflora-one": "^5.0.7",
     "@fontsource/nanum-pen-script": "^5.0.13",
     "@mui/material": "^5.16.7",
     "react": "^18.2.0",

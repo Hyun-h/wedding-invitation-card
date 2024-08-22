@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
-// 폰트
-import "@fontsource-variable/noto-sans-kr";
-import "@fontsource/nanum-pen-script";
-
 // MUI
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
