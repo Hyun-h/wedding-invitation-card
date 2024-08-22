@@ -12,7 +12,7 @@ const Main = () => {
       <Typography variant="h1" my={4}>
         {title}
       </Typography>
-      <Typography variant="h2">{eventDetail}</Typography>
+      <Typography variant="h3">{eventDetail}</Typography>
     </ItemSection>
   );
 };

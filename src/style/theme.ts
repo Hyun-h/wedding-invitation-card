@@ -2,7 +2,6 @@ import { createTheme } from "@mui/material/styles";
 
 // 폰트
 import "@fontsource-variable/noto-sans-kr";
-import "@fontsource/nanum-pen-script";
 import "@fontsource/grandiflora-one";
 
 const theme = createTheme({
@@ -14,7 +13,6 @@ const theme = createTheme({
     },
   },
   typography: {
-    htmlFontSize: 10,
     fontFamily: ["Noto Sans Kr", "sans-serif"].join(","),
     h1: {
       fontSize: "2rem",
@@ -24,9 +22,20 @@ const theme = createTheme({
       fontFamily: ["Grandiflora One", "sans-serif"].join(","),
     },
     h2: {
+      fontSize: "1.5rem",
+      color: "#315934",
+      fontWeight: "bold",
+      letterSpacing: 2,
+      lineHeight: "4rem",
+    },
+    h3: {
       fontSize: "1.1rem",
       fontWeight: 300,
       lineHeight: "140%",
+    },
+    caption: {
+      color: "#94A6A2",
+      fontSize: "0.875rem",
     },
   },
   components: {
