@@ -1,4 +1,5 @@
 import { createTheme } from "@mui/material/styles";
+import { color } from "./color";
 
 // 폰트
 import "@fontsource-variable/noto-sans-kr";
@@ -6,13 +7,16 @@ import "@fontsource/grandiflora-one";
 
 const theme = createTheme({
   palette: {
-    primary: { main: "#315934" },
-    secondary: { main: "#94A6A2" },
-    background: { default: "#F0F0F0", paper: "#F0F0F0" },
+    primary: { main: color.primary },
+    secondary: { main: color.secondary, light: color.background.sub },
+    background: {
+      default: color.background.main,
+      paper: color.background.main,
+    },
     text: {
-      primary: "#0A0A0A",
-      secondary: "#315934",
-      disabled: "#94A6A2",
+      primary: color.text,
+      secondary: color.primary,
+      disabled: color.secondary,
     },
   },
   typography: {
@@ -26,7 +30,7 @@ const theme = createTheme({
     },
     h2: {
       fontSize: "1.5rem",
-      color: "#315934",
+      color: color.primary,
       fontWeight: "bold",
       letterSpacing: 2,
       lineHeight: "4rem",
@@ -37,7 +41,7 @@ const theme = createTheme({
       lineHeight: "140%",
     },
     caption: {
-      color: "#94A6A2",
+      color: color.secondary,
       fontSize: "0.875rem",
     },
   },
@@ -45,7 +49,7 @@ const theme = createTheme({
     MuiStack: {
       styleOverrides: {
         root: {
-          backgroundColor: "#F0F0F0",
+          backgroundColor: color.background.main,
         },
       },
     },

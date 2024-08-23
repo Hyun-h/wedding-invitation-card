@@ -7,7 +7,6 @@ function Wrapper({ children }: ReactChildren) {
 
   return (
     <Stack
-      // bgcolor="#F0F2F0"
       direction="column"
       justifyContent="center"
       alignItems="center"

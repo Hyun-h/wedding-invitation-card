@@ -3,7 +3,11 @@ import { ReactChildren } from "@/types/atom";
 
 function Container({ children }: ReactChildren) {
   return (
-    <Stack justifyContent="center" alignItems="center" bgcolor="#D0D9D4">
+    <Stack
+      justifyContent="center"
+      alignItems="center"
+      bgcolor="secondary.light"
+    >
       {children}
     </Stack>
   );

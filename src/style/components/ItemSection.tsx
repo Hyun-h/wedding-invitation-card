@@ -17,7 +17,7 @@ const ItemSection = ({
   return (
     <Stack
       component="section"
-      padding={isSmallScreen ? 0 : 4}
+      padding={isSmallScreen ? "2rem 0" : "2rem"}
       gap={2}
       alignItems="center"
       flexDirection="column"
