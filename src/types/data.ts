@@ -5,18 +5,7 @@ export interface IGreeting {
     title: string;
   };
   message: string;
-  host: {
-    groom: {
-      name: string;
-      relation: string;
-      parents: Parent;
-    };
-    bride: {
-      name: string;
-      relation: string;
-      parents: Parent;
-    };
-  };
+  host: { name: string; relation: string; parents: Parent }[];
   eventDetail: string;
 }
 

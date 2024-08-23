@@ -6,6 +6,9 @@ import "@fontsource/grandiflora-one";
 
 const theme = createTheme({
   palette: {
+    primary: { main: "#315934" },
+    secondary: { main: "#94A6A2" },
+    background: { default: "#F0F0F0", paper: "#F0F0F0" },
     text: {
       primary: "#0A0A0A",
       secondary: "#315934",
@@ -39,6 +42,13 @@ const theme = createTheme({
     },
   },
   components: {
+    MuiStack: {
+      styleOverrides: {
+        root: {
+          backgroundColor: "#F0F0F0",
+        },
+      },
+    },
     MuiTypography: {
       styleOverrides: {
         root: {

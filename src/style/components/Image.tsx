@@ -14,7 +14,6 @@ const Image = ({ isSemicircle = false, maxWidth, image }: Props) => {
 
   return (
     <Box
-      borderRadius={isSemicircle ? "250px 250px 0 0" : "4px"}
       maxWidth={maxWidth}
       overflow="hidden"
       sx={{
@@ -22,6 +21,7 @@ const Image = ({ isSemicircle = false, maxWidth, image }: Props) => {
           maxWidth: "100%",
           height: "auto",
           objectFit: "fit",
+          borderRadius: isSemicircle ? "250px 250px 0 0" : "4px",
         },
       }}
     >

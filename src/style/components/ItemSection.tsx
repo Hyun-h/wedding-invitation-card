@@ -1,4 +1,4 @@
-import { Stack } from "@mui/material";
+import { Stack, useTheme, useMediaQuery } from "@mui/material";
 import { ReactChildren } from "@/types/atom";
 
 type Props = ReactChildren & {
@@ -11,10 +11,13 @@ const ItemSection = ({
   isFullScreen = false,
   isCenter = false,
 }: Props) => {
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <Stack
       component="section"
-      padding={4}
+      padding={isSmallScreen ? 0 : 4}
       gap={2}
       alignItems="center"
       flexDirection="column"
