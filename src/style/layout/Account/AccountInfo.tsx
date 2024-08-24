@@ -11,7 +11,7 @@ import { Fragment } from "react";
 
 const AccountInfo = () => {
   return (
-    <Stack mt={2} maxWidth={450} width="100%">
+    <Stack mt={2}>
       {hostInfo.map((item, index) => (
         <Fragment key={index}>
           <Accordion disableGutters elevation={4}>

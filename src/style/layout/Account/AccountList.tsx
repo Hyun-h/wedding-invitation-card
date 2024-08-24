@@ -56,7 +56,7 @@ const AccountList = ({ account }: Props) => {
               color="text.secondary"
               textAlign="left"
             >
-              {item.name}
+              {item.relation} {item.name}
             </Typography>
             <ListItemText
               disableTypography

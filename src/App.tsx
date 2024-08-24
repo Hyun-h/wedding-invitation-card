@@ -4,6 +4,7 @@ import Main from "@/layout/Main";
 import Invitation from "@/layout/Invitation";
 import Gallery from "@/layout/Gallery";
 import Account from "@/layout/Account";
+import Location from "@/layout/Location";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Invitation />
         <Gallery />
         <Account />
+        <Location />
       </Wrapper>
     </Container>
   );
