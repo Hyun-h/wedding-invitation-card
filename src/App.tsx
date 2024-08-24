@@ -1,24 +1,22 @@
-import { useState } from "react";
-import "./App.css";
+import Container from "@/layout/Container";
+import Wrapper from "@/layout/Wrapper";
+import Main from "@/layout/Main";
+import Invitation from "@/layout/Invitation";
+import Gallery from "@/layout/Gallery";
+import Account from "@/layout/Account";
+import Location from "@/layout/Location";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
-    <>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <Container>
+      <Wrapper>
+        <Main />
+        <Invitation />
+        <Gallery />
+        <Account />
+        <Location />
+      </Wrapper>
+    </Container>
   );
 }
 
