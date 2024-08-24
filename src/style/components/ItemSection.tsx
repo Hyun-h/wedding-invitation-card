@@ -21,7 +21,7 @@ const ItemSection = ({
       gap={2}
       alignItems="center"
       flexDirection="column"
-      height={isFullScreen ? "calc(100vh - 4rem)" : "100%"}
+      height={isFullScreen ? "calc(100vh - 2rem)" : "100%"}
       justifyContent={isCenter ? "center" : "normal"}
       maxWidth={isSmallScreen ? "calc(100vw - 4rem)" : "100%"}
     >
