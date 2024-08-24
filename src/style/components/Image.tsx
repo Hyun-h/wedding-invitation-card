@@ -25,7 +25,7 @@ const Image = ({ isSemicircle = false, maxWidth, image }: Props) => {
         },
       }}
     >
-      <img src={source} alt={alt} />
+      <img src={source} alt={alt} loading="lazy" />
     </Box>
   );
 };
