@@ -11,13 +11,15 @@ export interface IGreeting {
 
 export interface IHostInfo {
   host: string;
-  accountInfo: {
-    name: string;
-    relation: string;
-    bank: string;
-    account: string;
-  }[];
+  accountInfo: IAccountInfo;
 }
+
+export type IAccountInfo = {
+  name: string;
+  relation: string;
+  bank: string;
+  account: string;
+}[];
 
 export interface IMapInfo {
   address1: string;

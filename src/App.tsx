@@ -3,6 +3,7 @@ import Wrapper from "@/layout/Wrapper";
 import Main from "@/layout/Main";
 import Invitation from "@/layout/Invitation";
 import Gallery from "@/layout/Gallery";
+import Account from "@/layout/Account";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
         <Main />
         <Invitation />
         <Gallery />
+        <Account />
       </Wrapper>
     </Container>
   );
