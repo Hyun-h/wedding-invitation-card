@@ -23,6 +23,7 @@ const ItemSection = ({
       flexDirection="column"
       height={isFullScreen ? "calc(100vh - 4rem)" : "100%"}
       justifyContent={isCenter ? "center" : "normal"}
+      maxWidth={isSmallScreen ? "calc(100vw - 4rem)" : "100%"}
     >
       {children}
     </Stack>

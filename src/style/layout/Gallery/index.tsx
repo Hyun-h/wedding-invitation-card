@@ -1,5 +1,5 @@
 import { Image, ItemSection } from "@/style/components";
-import { Box, Typography, Stack } from "@mui/material";
+import { Box, Typography, Stack, useTheme, useMediaQuery } from "@mui/material";
 import { gallery } from "@/assets/images";
 import { useState } from "react";
 import { ImageItem } from "@/types/atom";
@@ -13,13 +13,16 @@ const Gallery = () => {
     setIsDialogOpen(false);
   };
 
+  const theme = useTheme();
+  const isSmallScreen = useMediaQuery(theme.breakpoints.down("sm"));
+
   return (
     <ItemSection>
       <Typography variant="h2">사진첩</Typography>
       <Stack
         gap={2}
         direction="row"
-        width={300}
+        width={isSmallScreen ? "calc(100vw - 4rem)" : 450}
         sx={{
           overflowX: "auto",
         }}
