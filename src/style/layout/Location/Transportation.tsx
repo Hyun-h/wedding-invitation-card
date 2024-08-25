@@ -1,4 +1,4 @@
-import { Typography, Stack } from "@mui/material";
+import { Typography, Stack, Button } from "@mui/material";
 import { mapInfo, locationInfo } from "data.json";
 
 const Transportation = () => {
@@ -12,12 +12,22 @@ const Transportation = () => {
         <Typography>{mapInfo.address2}</Typography>
       </Stack>
       {locationInfo.map((item, index) => (
-        <div key={index}>
+        <Stack key={index} alignItems="center">
           <Typography color="text.secondary" fontWeight={600}>
             {item.title}
           </Typography>
           <Typography>{item.desc}</Typography>
-        </div>
+          {item.title === "그 외" ? (
+            <Button
+              variant="outlined"
+              size="small"
+              onClick={() => window.open("https://forms.gle/oByKDasWouMKr11b7")}
+              sx={{ width: 95 }}
+            >
+              신청하러 가기
+            </Button>
+          ) : null}
+        </Stack>
       ))}
     </Stack>
   );
