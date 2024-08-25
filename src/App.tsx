@@ -7,19 +7,20 @@ import Invitation from "@/layout/Invitation";
 import Gallery from "@/layout/Gallery";
 import Account from "@/layout/Account";
 import Location from "@/layout/Location";
+import Notice from "@/layout/Notice";
 import { Loading } from "@/components/index";
 
 function App() {
   return (
     <Suspense fallback={<Loading />}>
       <Container>
-        {/* <MetaTag /> */}
         <Wrapper>
           <Main />
           <Invitation />
           <Gallery />
           <Account />
           <Location />
+          <Notice />
         </Wrapper>
       </Container>
     </Suspense>

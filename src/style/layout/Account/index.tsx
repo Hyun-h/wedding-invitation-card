@@ -1,4 +1,4 @@
-import { ItemSection } from "@/style/components";
+import { ItemSection } from "@/components/index";
 import { Typography } from "@mui/material";
 import AccountSummary from "./AccountSummary";
 
