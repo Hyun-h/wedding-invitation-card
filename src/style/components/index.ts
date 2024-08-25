@@ -1,5 +1,5 @@
 import Image from "./Image";
 import ItemSection from "./ItemSection";
-import MetaTag from "./MetaTag";
+import Loading from "./Loading";
 
-export { Image, ItemSection, MetaTag };
+export { Image, ItemSection, Loading };
