@@ -11,10 +11,10 @@ import { Fragment } from "react";
 
 const AccountSummary = () => {
   return (
-    <Stack mt={2}>
+    <Stack mt={2} width="100%">
       {hostInfo.map((item, index) => (
         <Fragment key={index}>
-          <Accordion disableGutters elevation={4}>
+          <Accordion elevation={4}>
             <AccordionSummary expandIcon={<ExpandMoreIcon />}>
               {item.host}
             </AccordionSummary>
