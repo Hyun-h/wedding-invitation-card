@@ -20,7 +20,6 @@
     "@mui/material": "^5.16.7",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-helmet-async": "^2.0.5",
     "react-naver-maps": "^0.1.3",
     "vite-tsconfig-paths": "^5.0.1"
   },

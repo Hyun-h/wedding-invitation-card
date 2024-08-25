@@ -7,8 +7,7 @@ import Invitation from "@/layout/Invitation";
 import Gallery from "@/layout/Gallery";
 import Account from "@/layout/Account";
 import Location from "@/layout/Location";
-import Loading from "@/layout/Loading";
-// import { MetaTag } from "@/style/components";
+import { Loading } from "@/components/index";
 
 function App() {
   return (
