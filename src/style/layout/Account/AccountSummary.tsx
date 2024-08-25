@@ -9,7 +9,7 @@ import AccountList from "./AccountList";
 import { hostInfo } from "data.json";
 import { Fragment } from "react";
 
-const AccountInfo = () => {
+const AccountSummary = () => {
   return (
     <Stack mt={2}>
       {hostInfo.map((item, index) => (
@@ -28,4 +28,4 @@ const AccountInfo = () => {
   );
 };
 
-export default AccountInfo;
+export default AccountSummary;

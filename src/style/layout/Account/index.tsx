@@ -1,6 +1,6 @@
 import { ItemSection } from "@/style/components";
 import { Typography } from "@mui/material";
-import AccountInfo from "./AccountInfo";
+import AccountSummary from "./AccountSummary";
 
 const Account = () => {
   return (
@@ -11,7 +11,7 @@ const Account = () => {
         마음으로 양해 부탁드립니다.{"\n"}축의금을 보내주신 분들께 감사의 뜻을
         전하고 싶습니다.{"\n"}연락주시면 감사하겠습니다.
       </Typography>
-      <AccountInfo />
+      <AccountSummary />
     </ItemSection>
   );
 };
