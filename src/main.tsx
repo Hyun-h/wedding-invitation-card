@@ -2,7 +2,6 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 
 import { NavermapsProvider } from "react-naver-maps";
-import { HelmetProvider } from "react-helmet-async";
 
 // MUI
 import { ThemeProvider } from "@mui/material/styles";
@@ -15,13 +14,11 @@ const NCP_CLIENT_ID = import.meta.env.VITE_APP_NAVERMAPS_CLIENT_ID;
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
   <React.StrictMode>
-    <HelmetProvider>
-      <NavermapsProvider ncpClientId={NCP_CLIENT_ID}>
-        <ThemeProvider theme={theme}>
-          <CssBaseline />
-          <App />
-        </ThemeProvider>
-      </NavermapsProvider>
-    </HelmetProvider>
+    <NavermapsProvider ncpClientId={NCP_CLIENT_ID}>
+      <ThemeProvider theme={theme}>
+        <CssBaseline />
+        <App />
+      </ThemeProvider>
+    </NavermapsProvider>
   </React.StrictMode>
 );
