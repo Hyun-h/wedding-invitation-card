@@ -1,6 +1,7 @@
 import { List, ListItem, Typography, Stack } from "@mui/material";
-import { locationNotice } from "data.json";
 import { ItemSection } from "@/components/index";
+
+import { locationNotice } from "data.json";
 
 const Notice = () => {
   return (

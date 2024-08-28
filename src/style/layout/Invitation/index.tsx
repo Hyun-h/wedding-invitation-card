@@ -8,6 +8,9 @@ const Invitation = () => {
   return (
     <ItemSection>
       <Typography variant="h2">모시는 글</Typography>
+      <Typography variant="h3" fontWeight={500} mb={1} color="secondary">
+        {eventDetail}
+      </Typography>
       <Box>
         <Typography>{quotation.message}</Typography>
         <Typography fontSize="0.875rem">{quotation.title}</Typography>
@@ -16,9 +19,6 @@ const Invitation = () => {
         {message}
       </Typography>
       <Box>
-        <Typography variant="h3" fontWeight={500} mb={1} color="secondary">
-          {eventDetail}
-        </Typography>
         {host.map((host, index) => (
           <Typography
             variant="h3"

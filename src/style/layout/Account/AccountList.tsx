@@ -10,12 +10,12 @@ import {
   SnackbarCloseReason,
 } from "@mui/material";
 import { CopyAllOutlined } from "@mui/icons-material";
-import { IAccountInfo } from "@/types/data";
+import { AccountInfo } from "@/types/data";
 import copyToClipboard from "utils";
 import { useState } from "react";
 
 type Props = {
-  account: IAccountInfo;
+  account: AccountInfo;
 };
 
 const AccountList = ({ account }: Props) => {

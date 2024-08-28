@@ -10,7 +10,7 @@ const Location = () => {
     <ItemSection>
       <Typography variant="h2">위치 안내</Typography>
 
-      <Stack gap={1}>
+      <Stack gap={0.5}>
         <Map />
         <MapButton />
       </Stack>
