@@ -6,6 +6,7 @@ import Main from "@/layout/Main";
 import Invitation from "@/layout/Invitation";
 import Gallery from "@/layout/Gallery";
 import Account from "@/layout/Account";
+import Charter from "@/layout/Charter";
 import Location from "@/layout/Location";
 import Notice from "@/layout/Notice";
 import { Loading } from "@/components/index";
@@ -19,6 +20,7 @@ function App() {
           <Invitation />
           <Gallery />
           <Account />
+          <Charter />
           <Location />
           <Notice />
         </Wrapper>

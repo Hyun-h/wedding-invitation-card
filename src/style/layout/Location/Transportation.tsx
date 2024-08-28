@@ -13,9 +13,8 @@ const Transportation = () => {
           {item.title === "그 외" ? (
             <Button
               variant="outlined"
-              size="small"
               onClick={() => window.open("https://forms.gle/oByKDasWouMKr11b7")}
-              sx={{ width: 120, mt: 1 }}
+              sx={{ width: 150 }}
             >
               탑승 신청하러 가기
             </Button>
