@@ -1,5 +1,14 @@
-import { Stack, useTheme, useMediaQuery } from "@mui/material";
+import {
+  Stack,
+  useTheme,
+  useMediaQuery,
+  IconButton,
+  Typography,
+} from "@mui/material";
+import GitHubIcon from "@mui/icons-material/GitHub";
 import { ReactChildren } from "@/types/atom";
+
+import { developer } from "data.json";
 
 function Wrapper({ children }: ReactChildren) {
   const theme = useTheme();
@@ -16,6 +25,18 @@ function Wrapper({ children }: ReactChildren) {
       overflow="hidden"
     >
       {children}
+      <Stack width="100%" alignItems="flex-end">
+        {developer.map((item, index) => (
+          <Stack key={index} direction="row" alignItems="center">
+            <Typography variant="caption" mt={0.3}>
+              {item.role} : {item.name}
+            </Typography>
+            <IconButton size="small" onClick={() => window.open(item.url)}>
+              <GitHubIcon fontSize="small" />
+            </IconButton>
+          </Stack>
+        ))}
+      </Stack>
     </Stack>
   );
 }
