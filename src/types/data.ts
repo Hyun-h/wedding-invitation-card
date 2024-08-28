@@ -9,21 +9,37 @@ export interface IGreeting {
   eventDetail: string;
 }
 
+type Parent = {
+  relation: string;
+  name: string;
+}[];
+
 export interface IHostInfo {
   host: string;
-  accountInfo: IAccountInfo;
+  accountInfo: AccountInfo;
 }
 
-export type IAccountInfo = {
+export type AccountInfo = {
   name: string;
   relation: string;
   bank: string;
   account: string;
 }[];
 
+export interface ICharterInfo {
+  url: string;
+  schedule: Schedule;
+}
+
+export type Schedule = {
+  type: string;
+  position: string;
+  time: string;
+  toDo: string;
+  location: string;
+}[];
+
 export interface IMapInfo {
-  address1: string;
-  address2: string;
   naverMap: string;
   kakaoMap: string;
   lat: number;
@@ -34,14 +50,13 @@ export interface ILocationInfo {
   title: string;
   desc: string;
 }
+[];
 
-export interface ILocationNotice {
-  notice1: string;
-  notice2: string;
-  notice3: string;
-}
+export type LocationNotice = Array<string>;
 
-type Parent = {
-  relation: string;
+export interface IDeveloper {
+  role: string;
   name: string;
-}[];
+  url: string;
+}
+[];
