@@ -23,7 +23,7 @@ const Map = () => {
         height: isSmallScreen ? "350px" : "450px",
       }}
     >
-      <NaverMap defaultCenter={new navermaps.LatLng(lat, lon)} defaultZoom={15}>
+      <NaverMap defaultCenter={new navermaps.LatLng(lat, lon)} defaultZoom={14}>
         <Marker defaultPosition={new navermaps.LatLng(lat, lon)} />
       </NaverMap>
     </MapDiv>

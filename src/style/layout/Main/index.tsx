@@ -9,19 +9,14 @@ import { poster } from "@/assets/images";
 import { greeting } from "data.json";
 
 const Main = () => {
-  const { title, eventDetail } = greeting;
-
   return (
     <Suspense fallback={<Loader />}>
       <ItemSection isCenter isFullScreen>
         <Image isSemicircle maxWidth={450} image={poster} />
         <Typography variant="h1" my={2}>
-          {title}
+          {greeting.title}
         </Typography>
       </ItemSection>
-      <Typography variant="h3" mt="-2rem">
-        {eventDetail}
-      </Typography>
     </Suspense>
   );
 };

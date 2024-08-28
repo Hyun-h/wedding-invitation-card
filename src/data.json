@@ -63,14 +63,16 @@
     }
   ],
   "mapInfo": {
-    "address1": "(도로명)\n경기도 용인시 수지구 고기로45번길 38",
-    "address2": "(지 번)\n경기도 용인시 수지구 동천동 349번지",
     "naverMap": "https://map.naver.com/p/entry/place/12866749?placePath=%2Fhome&c=15.00,0,0,0,dh",
     "kakaoMap": "https://map.kakao.com/?map_type=TYPE_MAP&itemId=10284140&q=%EB%8F%99%EC%B2%9C%EB%8F%99%EC%84%B1%EB%8B%B9&urlLevel=3&urlX=520821&urlY=1066916",
     "lat": 37.34044484750556,
     "lon": 127.09431767463684
   },
   "locationInfo": [
+    {
+      "title": "주소",
+      "desc": "(도로명)\n경기도 용인시 수지구 고기로45번길 38\n(지 번)\n경기도 용인시 수지구 동천동 349번지"
+    },
     {
       "title": "주차",
       "desc": "성당 내 하객 주차 가능"
@@ -85,7 +87,7 @@
     },
     {
       "title": "그 외",
-      "desc": "진주, 대전은 대절버스를 운영합니다. 🚌"
+      "desc": "진주, 대전은 28인승 리무진 버스를 운영합니다.\n진주: 오전 7시 30분 진주역 앞 시내버스 승차장\n대전: 오전 9시 20분 대전IC 입구 산림조합 앞"
     }
   ],
   "locationNotice": [

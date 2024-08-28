@@ -3,7 +3,7 @@ import { Typography, Box } from "@mui/material";
 import { greeting } from "data.json";
 
 const Invitation = () => {
-  const { message, quotation, host } = greeting;
+  const { eventDetail, message, quotation, host } = greeting;
 
   return (
     <ItemSection>
@@ -16,6 +16,9 @@ const Invitation = () => {
         {message}
       </Typography>
       <Box>
+        <Typography variant="h3" fontWeight={500} mb={1} color="secondary">
+          {eventDetail}
+        </Typography>
         {host.map((host, index) => (
           <Typography
             variant="h3"
