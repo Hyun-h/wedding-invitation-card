@@ -1,12 +1,18 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 
+// map
 import { NavermapsProvider } from "react-naver-maps";
 
 // MUI
 import { ThemeProvider } from "@mui/material/styles";
 import { CssBaseline } from "@mui/material";
 import theme from "@/style/theme/theme.ts";
+
+// Swiper
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import App from "./App.tsx";
 
