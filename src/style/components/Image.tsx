@@ -20,7 +20,7 @@ const Image = ({ isSemicircle = false, maxWidth, image }: Props) => {
         "& img": {
           maxWidth: "100%",
           height: "auto",
-          objectFit: "fit",
+          objectFit: "cover",
           borderRadius: isSemicircle ? "250px 250px 0 0" : "4px",
         },
       }}
