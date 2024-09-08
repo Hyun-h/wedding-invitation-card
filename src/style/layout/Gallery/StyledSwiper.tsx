@@ -5,18 +5,42 @@ const StyledSwiper = styled("div")(({ theme }) => ({
   height: "100%",
 
   ".swiper-slide": {
+    textAlign: "center",
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    backgroundSize: "cover",
+    backgroundPosition: "center",
   },
-  ".swiper-pagination-bullet": {
-    backgroundColor: theme.palette.text.primary,
+
+  ".swiper": {
+    width: "100%",
+    height: "100%",
+    marginLeft: "auto",
+    marginRight: "auto",
   },
-  ".swiper-pagination-bullet-active": {
-    backgroundColor: theme.palette.background.default,
+
+  ".mySwiper2": {
+    height: "calc(100% - 30px)",
+    width: "100%",
   },
+
+  ".mySwiper": {
+    height: "30px",
+    boxSizing: "border-box",
+    padding: "10px 0",
+  },
+  ".mySwiper .swiper-slide": {
+    width: "25%",
+    opacity: 0.4,
+  },
+
+  ".mySwiper .swiper-slide-thumb-active": {
+    opacity: 1,
+  },
+
   ".swiper-button-prev, .swiper-button-next": {
-    color: theme.palette.background.default,
+    color: theme.palette.primary.main,
   },
 }));
 

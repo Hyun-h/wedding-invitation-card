@@ -20,8 +20,9 @@ function Wrapper({ children }: ReactChildren) {
       justifyContent="center"
       alignItems="center"
       gap={4}
-      padding={4}
+      padding={isSmallScreen ? "32px 0 0 0" : 4}
       maxWidth={isSmallScreen ? "100vw" : 600}
+      width="100%"
       overflow="hidden"
     >
       {children}
