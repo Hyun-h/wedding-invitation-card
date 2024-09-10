@@ -16,7 +16,7 @@ import "swiper/css/navigation";
 import "swiper/css/thumbs";
 
 const ImageSwiper = () => {
-  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass | null>(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperClass>(null!);
 
   const theme = useTheme();
 
@@ -26,7 +26,9 @@ const ImageSwiper = () => {
         loop={true}
         spaceBetween={10}
         navigation={true}
-        thumbs={thumbsSwiper ? { swiper: thumbsSwiper } : undefined}
+        thumbs={{
+          swiper: thumbsSwiper && !thumbsSwiper.destroyed ? thumbsSwiper : null,
+        }}
         modules={[FreeMode, Navigation, Thumbs]}
         className="mySwiper2"
       >

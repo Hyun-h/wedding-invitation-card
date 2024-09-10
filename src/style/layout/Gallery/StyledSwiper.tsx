@@ -18,6 +18,7 @@ const StyledSwiper = styled("div")(({ theme }) => ({
     height: "100%",
     marginLeft: "auto",
     marginRight: "auto",
+    touchAction: "pan-y",
   },
 
   ".mySwiper2": {
