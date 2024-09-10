@@ -26,7 +26,7 @@ function Wrapper({ children }: ReactChildren) {
       overflow="hidden"
     >
       {children}
-      <Stack width="100%" alignItems="flex-end">
+      <Stack width="100%" alignItems="flex-end" padding={isSmallScreen ? 4 : 0}>
         {developer.map((item, index) => (
           <Stack key={index} direction="row" alignItems="center">
             <Typography variant="caption" mt={0.3}>
