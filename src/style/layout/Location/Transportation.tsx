@@ -5,7 +5,7 @@ const Transportation = () => {
   return (
     <Stack width="100%" gap={2} pt={2}>
       {locationInfo.map((item, index) => (
-        <Stack key={index} alignItems="center" gap={1}>
+        <Stack key={index} alignItems="center">
           <Typography color="text.secondary" fontWeight={600}>
             {item.title}
           </Typography>

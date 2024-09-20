@@ -8,9 +8,6 @@ const Charter = () => {
     <ItemSection>
       <Typography variant="h2">진주 출발 버스 안내</Typography>
       <Stack alignItems="center" gap={1}>
-        <Box mt={-4}>
-          <Schedule />
-        </Box>
         <Typography>
           대절버스가 필요하신 분은 아래의 신청서를 꼭 작성해주세요.
         </Typography>
@@ -21,6 +18,7 @@ const Charter = () => {
         >
           탑승 신청하러 가기
         </Button>
+        <Schedule />
       </Stack>
     </ItemSection>
   );
